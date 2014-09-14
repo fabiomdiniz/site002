@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #6e4004;
+    color: #ac7d3f;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #3c2302;
+    color: #6e4004;
 }
 
 .light {
@@ -171,7 +171,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .intro .intro-body .intro-text {
@@ -257,11 +257,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.atuacao-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/atuacao-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
