@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Garamond,Lora,"times",serif;
     color: #00000e;
     background-color: #f6fbff;
 }
@@ -25,7 +25,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Futura,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -70,7 +70,7 @@ a:focus {
 }
 
 .navbar-brand {
-    padding: 0px 0px;
+    padding: 10px 0px;
 }
 
 .navbar-custom .navbar-brand {
@@ -115,7 +115,6 @@ a:focus {
     outline: 0;
     background-color: rgba(255,255,255,.1);
     color: #cba967;
-    border-bottom: 2px solid #cba967;
 }
 
 @media(min-width:767px) {
@@ -262,8 +261,9 @@ a:focus {
 }
 
 .atuacao-section {
+    min-height: 200px;
     width: 100%;
-    padding: 50px 0;
+    padding: 80px 0;
     color: #fff;
     background: url(../img/atuacao-bg.jpg) no-repeat center center scroll;
     background-color: #000;
@@ -282,11 +282,12 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 150px;
     }
 
-    .download-section {
-        padding: 100px 0;
+    .atuacao-section {
+        min-height: 500px;
+        padding: 200px 0;
     }
 
     #map {
@@ -296,26 +297,28 @@ a:focus {
 }
 
 .btn {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: Futura,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-weight: 200;*/
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
-    background-color: transparent;
+    border: 1px solid #f6fbff;
+    color: #f6fbff;
+    background-color: rgba(0,0,0,.4);
+    margin: 10px;
+    padding: 10px 20px;
+    width:100%;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 1px solid #cba967;
     outline: 0;
-    color: #000;
-    background-color: #219ab3;
+    color: #cba967;
+    background-color: rgba(0,0,0,.4);
 }
 
 ul.banner-social-buttons {
@@ -370,4 +373,22 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.modal-body {
+    font-size: 18px;
+}
+
+.title {
+    color: #1d2c47;
+}
+
+.btn-modal {
+    background-color: #1d2c47;
+    color: #f6fbff;
+}
+.btn-modal:hover {
+    outline: 0;
+    color: #cba967;
+    background-color: #1d2c47;
 }
