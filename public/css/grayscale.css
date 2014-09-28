@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #ac7d3f;
+    color: #cba967;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -53,8 +53,7 @@ a {
 
 a:hover,
 a:focus {
-    text-decoration: none;
-    color: #6e4004;
+    color: #cba967;
 }
 
 .light {
@@ -391,4 +390,26 @@ body {
     outline: 0;
     color: #cba967;
     background-color: #1d2c47;
+}
+
+.link-title a {
+    color: #1f3b87;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid #1f3b87;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    color: #cba967;
+    text-decoration: none;
+    border-bottom: 1px solid #cba967;
+}
+
+.link-description {
+    font-size: 20px;
+    margin-bottom: 15px;
 }
