@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
     /*font-family: Georgia,Garamond,Lora,"times",serif;*/
-    color: #00000e;
+    color: #262626;
     background-color: #f6fbff;
 }
 
@@ -66,11 +66,12 @@ a:focus {
     font-size: 18px;
     border-bottom: 1px solid rgba(255,255,255,.3);
     font-family: Futura,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #101a34;
+    color: #f6fbff;
 }
 
 .navbar-brand {
-    padding: 10px 0px;
+    margin: auto;
 }
 
 .navbar-custom .navbar-brand {
@@ -135,6 +136,10 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+    
+    .navbar-brand {
+        padding: 10px 0px;
     }
 }
 
