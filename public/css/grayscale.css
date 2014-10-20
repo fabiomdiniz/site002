@@ -207,6 +207,10 @@ a:focus {
     outline: 0;
     color: #fff;
     background: rgba(255,255,255,.1);
+    background:none;
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19FFFFFF,endColorstr=#19FFFFFF);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19FFFFFF,endColorstr=#19FFFFFF);
+    zoom: 1;
 }
 
 .btn-circle i.animated {
@@ -303,6 +307,10 @@ a:focus {
     border: 1px solid #f6fbff;
     color: #f6fbff;
     background-color: rgba(0,0,0,.4);
+    background:none;
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    zoom: 1;
     margin: 10px;
     padding: 10px 20px;
     width:100%;
@@ -314,6 +322,9 @@ a:focus {
     outline: 0;
     color: #cba967;
     background-color: rgba(0,0,0,.4);
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    zoom: 1;
 }
 
 ul.banner-social-buttons {
