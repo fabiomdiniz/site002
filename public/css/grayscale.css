@@ -469,5 +469,6 @@ a:focus {
 .modal-body p {
     margin: 0 0 10px;
     font-size: 16px;
+    text-align: justify;
 
 }
