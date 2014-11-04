@@ -266,6 +266,21 @@ a:focus {
     }
 }
 
+#about p { 
+    margin: 0px 0 15px;
+}
+
+.v-center {
+    display:table !important;
+    min-height:300px;
+}
+
+.v-content {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
 .content-section {
     padding-top: 100px;
 }
@@ -438,8 +453,9 @@ a:focus {
     }
 }
 
-#contact img {
+.img-border {
     border: 4px solid #cba967;
+    margin-bottom: 10px;
 }
 
 .contact-text {
